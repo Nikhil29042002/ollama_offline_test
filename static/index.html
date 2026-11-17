@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Offline chat</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main>
+  <header>
+    <div>
+      <h1>Offline chat</h1>
+      <p>llama3.2:3b on this computer</p>
+    </div>
+    <span id="status">checking llama3.2:3b</span>
+  </header>
+  <div id="log"></div>
+  <div id="error"></div>
+  <form id="form">
+    <textarea id="box" rows="1" placeholder="Message llama3.2:3b" autofocus></textarea>
+    <button id="send" type="submit">Send</button>
+  </form>
+  <p class="note">Runs on this computer. No internet.</p>
+</main>
+<script src="/app.js"></script>
+</body>
+</html>
